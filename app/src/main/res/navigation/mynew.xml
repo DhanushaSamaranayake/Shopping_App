@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mynew"
+    app:startDestination="@id/Dashboard">
+
+    <fragment
+        android:id="@+id/Dashboard"
+        android:name="com.example.newbagshop.Fragment.user_fragment"
+        android:label="Dashboard"
+        tools:layout="@layout/fragment_user_fragment" >
+        <action
+            android:id="@+id/action_Dashboard_to_Info"
+            app:destination="@id/Info" />
+    </fragment>
+    <fragment
+        android:id="@+id/Info"
+        android:name="com.example.newbagshop.Fragment.secon_frag"
+        android:label="Info"
+        tools:layout="@layout/fragment_secon_frag2" >
+        <action
+            android:id="@+id/action_Info_to_splashActivity"
+            app:destination="@id/splashActivity" />
+        <action
+            android:id="@+id/action_Info_to_Dashboard"
+            app:destination="@id/Dashboard" />
+    </fragment>
+    <activity
+        android:id="@+id/splashActivity"
+        android:name="com.example.newbagshop.SplashActivity"
+        android:label="activity_splash"
+        tools:layout="@layout/activity_splash" />
+    <fragment
+        android:id="@+id/policies"
+        android:name="com.example.newbagshop.Fragment.Policies"
+        android:label="Privacy Police"
+        tools:layout="@layout/fragment_policies" >
+        <action
+            android:id="@+id/action_policies_to_Dashboard"
+            app:destination="@id/Dashboard" />
+    </fragment>
+</navigation>

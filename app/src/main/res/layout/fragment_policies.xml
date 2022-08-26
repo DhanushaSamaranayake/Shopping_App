@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <!-- bla bla bla-->
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/ubuntu"
+            android:text="Privacy and Confidentiality"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:layout_width="352dp"
+            android:layout_height="105dp"
+            android:layout_marginStart="-245dp"
+            android:layout_marginTop="80dp"
+            android:fontFamily="@font/ubuntu"
+            android:lineHeight="18dp"
+            android:text="Welcome to the NewShop.lk website
+  operated by Newtech (Private) Limited, We respect your privacy and want to protect your personal information. To learn more, please read this Privacy Policy."
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="369dp"
+            android:layout_height="179dp"
+            android:layout_marginStart="-350dp"
+            android:layout_marginTop="200dp"
+            android:fontFamily="@font/ubuntu"
+            android:lineHeight="18dp"
+            android:text="1. This Privacy Policy explains how we collect, use and (under certain conditions) disclose your personal information. This Privacy Policy also explains the steps we have taken to secure your personal information. Finally, this Privacy Policy explains your options regarding the collection, use and disclosure of your personal information. By visiting the Site directly or through another site, you accept the practices described in this Policy."
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="369dp"
+            android:layout_height="179dp"
+            android:layout_marginStart="-368dp"
+            android:layout_marginTop="400dp"
+            android:fontFamily="@font/ubuntu"
+            android:lineHeight="18dp"
+            android:textColor="@color/black"
+            android:text="2. Data protection is a matter of trust and your privacy is important to us. We shall therefore only use your name and other information which relates to you in the manner set out in this Privacy Policy. We will only collect information where it is necessary for us to do so and we will only collect information if it is relevant to our dealings with you."
+            android:textSize="15dp"
+             />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="378dp"
+            android:layout_height="200dp"
+            android:layout_marginStart="-370dp"
+            android:layout_marginTop="580dp"
+            android:fontFamily="@font/ubuntu"
+            android:lineHeight="18dp"
+            android:text="3. We will only keep your information for as long as we are either required to by law or as is relevant for the purposes for which it was collected.
+
+We will cease to retain your personal data, or remove the means by which the data can be associated with you, as soon as it is reasonable to assume that such retention no longer serves the purposes for which the personal data was collected, and is no longer necessary for any legal or business purpose."
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="-370dp"
+            android:layout_marginTop="770dp"
+            android:src="@drawable/checkmark"/>
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="20dp"
+            android:text="Genuine Product"
+            android:textStyle="bold"
+            android:layout_marginTop="820dp"
+            android:layout_marginStart="-70dp"/>
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="770dp"
+                    android:src="@drawable/lockedcard" />
+
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="-60dp"
+                    android:layout_marginTop="820dp"
+                    android:text="Safe &amp; Secure Payment"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="770dp"
+                    android:src="@drawable/fastdelivery" />
+
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="-60dp"
+                    android:layout_marginTop="820dp"
+                    android:text="Fast Delivery"
+                    android:textStyle="bold" />
+
+        </LinearLayout>
+
+</ScrollView>
+
+

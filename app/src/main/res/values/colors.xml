@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FF000b76</color>
+    <color name="purple_500">#FF000b76</color>
+    <color name="purple_700">#FF000b76</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="wave_color_blue">#000b76</color>
+
+    <style name="Theme.App" parent="Theme.MaterialComponents">
+        ...
+        <item name="switchStyle">@style/Widget.App.Switch</item>
+    </style>
+
+    <style name="Widget.App.Switch" parent="Widget.MaterialComponents.CompoundButton.Switch">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.Switch</item>
+    </style>
+
+    <style name="ThemeOverlay.App.Switch" parent="">
+        <item name="colorOnSurface">@color/wave_color_blue</item>
+        <item name="colorSecondary">@color/wave_color_blue</item>
+    </style>
+
+</resources>
+

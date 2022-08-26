@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register"
+    tools:ignore="ExtraText">
+
+    <View
+        android:id="@+id/top_view"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        android:background="@color/wave_color_blue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:background="@drawable/wave"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/top_view" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:fontFamily="@font/ubuntu"
+        android:text="@string/register"
+        android:textColor="#FFFFFF"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/top_view"
+        app:layout_constraintTop_toTopOf="@+id/top_view" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/ubuntu"
+        android:text="@string/new_user_to_app"
+        android:textColor="#FAFAFA"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/inputName"
+        android:layout_width="300dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="56dp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/ic_person"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:fontFamily="@font/ubuntu"
+        android:hint="@string/enter_your_name"
+        android:inputType="textPersonName"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:textSize="14sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view4"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/InputEmail"
+        android:layout_width="300dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="56dp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/email"
+        android:drawablePadding="12dp"
+        android:fontFamily="@font/ubuntu"
+        android:ems="10"
+        android:hint="@string/enter_your_email_address"
+        android:inputType="textEmailAddress"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputName"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/inputNumber"
+        android:layout_width="300dp"
+        android:layout_height="39dp"
+        android:fontFamily="@font/ubuntu"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="56dp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/ic_phone"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hint="@string/enter_your_phone_number"
+        android:inputType="phone"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/InputEmail"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/inputPassword"
+        android:layout_width="300dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/ubuntu"
+        android:layout_marginEnd="56dp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/ic_baseline_lock_24"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hint="@string/enter_your_password"
+        android:inputType="textPassword"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputNumber"
+        android:autofillHints="" /><![CDATA[
+
+    >
+
+
+    ]]>
+
+    <EditText
+        android:id="@+id/inputComfirmpw"
+        android:layout_width="300dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="56dp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/ic_baseline_lock_24"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:fontFamily="@font/ubuntu"
+        android:hint="@string/comfirm_your_password"
+        android:inputType="textPassword"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputPassword"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="115dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="139dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="139dp"
+        android:background="@drawable/log_btn"
+        android:fontFamily="@font/ubuntu"
+        android:text="@string/registerbtn"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputComfirmpw" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

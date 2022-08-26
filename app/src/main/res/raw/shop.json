@@ -1,0 +1,197 @@
+[
+  {
+    "name":"Ladies Bags",
+    "delivery_charge": 5,
+    "image":"https://cdn-icons-png.flaticon.com/512/3566/3566983.png",
+    "menus": [
+      {
+        "name": "New Designer PU Leather Ladies Handbags",
+        "price": 10.00,
+        "url": "https://storage.googleapis.com/designify-images-tmp/a8c42d29-2494-4c1a-8267-af91ac122b71.png"
+      },
+      {
+        "name": "Women Casual Leather  Handbag",
+        "price": 13.99,
+        "url": "https://storage.googleapis.com/designify-images-tmp/9aecf35b-bb8c-442c-bb4b-85d0e43cf385.png"
+      },
+      {
+        "name": "Ladies Hand Bags, Pattern : Plain",
+        "price": 4.99,
+        "url": "https://storage.googleapis.com/designify-images-tmp/4ffb313a-79c6-477f-b7e2-9887d0e7bd50.png"
+      },
+      {
+        "name": "Ladies Bags,Pu Leather Handbags",
+        "price": 5.49,
+        "url": "https://storage.googleapis.com/designify-images-tmp/79620d2b-0ba9-4783-b8d5-453aeae009a6.png"
+      },
+      {
+        "name": "Ladies laptop bag",
+        "price": 4.00,
+        "url": "https://storage.googleapis.com/designify-images-tmp/38fa8430-81e9-469b-a1a5-5a91e4215a3d.png"
+      },
+      {
+        "name": "Best handbags for women",
+        "price": 3.25,
+        "url": "https://storage.googleapis.com/designify-images-tmp/b4944f5f-c388-4466-a868-5fbd22c04588.png"
+      },
+      {
+        "name": "New blue colour Handbag",
+        "price": 5.49,
+        "url": "https://storage.googleapis.com/designify-images-tmp/04f539f2-7192-459d-899d-34b42d3b7ec3.png"
+      },
+      {
+        "name": "ladies hand bags Fashion Leather",
+        "price": 3.99,
+        "url": "https://storage.googleapis.com/designify-images-tmp/c9275f75-a156-41e2-b53c-b2fe42c142a2.png"
+      },
+      {
+        "name": "New Model Fashion Bags Ladies Handbags",
+        "price": 8.09,
+        "url": "https://storage.googleapis.com/designify-images-tmp/171386bd-fe1d-4135-8716-b10dddbd55de.png"
+      },
+      {
+        "name": "new style ladies handbags",
+        "price": 6.49,
+        "url": "https://storage.googleapis.com/designify-images-tmp/56b9383f-ad6e-47b2-a66d-41ec2f995763.png"
+      }
+    ]
+  },
+  {
+    "name":"Gentleman's Bags",
+    "delivery_charge": 4,
+    "image":"https://storage.googleapis.com/designify-images-tmp/b9e9f944-f5ea-4d79-8349-7c8d730dd52b.png",
+
+    "menus": [
+      {
+        "name": "Buy Small Leather Mens Crossbody Bag",
+        "price": 2.99,
+        "url": "https://storage.googleapis.com/designify-images-tmp/c33f092c-2d54-4ba1-91e0-657599d71b07.png"
+      },
+      {
+        "name": "Men Business Retro PU Leather Handbag Crossbody Bag",
+        "price": 3.59,
+        "url": "https://storage.googleapis.com/designify-images-tmp/fc9df5b8-27a4-4e2a-abe8-9b2fd4da26fe.png"
+      },
+      {
+        "name": "Man Bags | Backpacks for Men",
+        "price": 5.44,
+        "url": "https://storage.googleapis.com/designify-images-tmp/635b27f1-67ab-430e-aba8-9c4b91344ddc.png"
+      },
+      {
+        "name": "Premium Bag",
+        "price": 2.00,
+        "url": "https://storage.googleapis.com/designify-images-tmp/78b12b4f-e196-4aa6-a28c-4e68f8b3abfc.png"
+      },
+      {
+        "name": "Crossbody Bags",
+        "price": 3.49,
+        "url": "https://storage.googleapis.com/designify-images-tmp/0ac9699d-f311-4d77-8b46-a134b2feceda.png"
+      },
+      {
+        "name": "Bags For Men: Durable Leather, Canvas & Fashion Bags",
+        "price": 4.95,
+        "url": "https://storage.googleapis.com/designify-images-tmp/a2c14461-4acd-4e04-bfe2-ecf4dc7f819c.png"
+      },
+      {
+        "name": "Fossil mens Bag",
+        "price": 3.59,
+        "url": "https://storage.googleapis.com/designify-images-tmp/bff8a1c9-c636-476b-a54c-1780e00e8037.png"
+      },
+      {
+        "name": "Bags for Men: Durable Leather, Canvas & Fashion Bags",
+        "price": 5.49,
+        "url": "https://storage.googleapis.com/designify-images-tmp/4c43fd67-7e31-4dec-b31e-c50c32fb7434.png"
+      },
+      {
+        "name": "Men's Backpacks",
+        "price": 3.99,
+        "url": "https://storage.googleapis.com/designify-images-tmp/09721dd1-16eb-499d-9707-247ba2dc402d.png"
+      },
+      {
+        "name": "Men's new Bag Design",
+        "price": 8.29,
+        "url": "https://storage.googleapis.com/designify-images-tmp/59b70723-4faa-4cb2-818b-6f82348887bc.png"
+      },
+      {
+        "name": "Two Zipper Nylon Men Backpack Fashion Teenage",
+        "price": 6.99,
+        "url": "https://storage.googleapis.com/designify-images-tmp/89086a9d-113d-4783-82f0-6a4e7850ede0.png"
+      }
+    ]
+  },
+  {
+    "name":"Watches",
+    "delivery_charge": 5,
+    "image":"https://storage.googleapis.com/designify-images-tmp/e4eb24e5-ccf7-452f-afa0-de0f6d79ab62.png",
+    "menus": [
+      {
+        "name": "Jaeger-LeCoultre Master Control Date",
+        "price": 4.95,
+        "url": "https://storage.googleapis.com/designify-images-tmp/915e947b-14fd-4d7d-9b75-ad1e56bf61df.png"
+      },
+      {
+        "name": "Mens Watches | Vincero Collective",
+        "price": 3.59,
+        "url": "https://storage.googleapis.com/designify-images-tmp/e43e683d-f969-47a4-a9cd-2b0816babc61.png"
+      },
+      {
+        "name": "Watches for Women: Top Luxury & Budget Watches",
+        "price": 5.49,
+        "url": "https://storage.googleapis.com/designify-images-tmp/cc156431-054d-4adb-b6b6-15bc2746b0f5.png"
+      },
+      {
+        "name": "db watches for women",
+        "price": 3.99,
+        "url": "https://storage.googleapis.com/designify-images-tmp/06bcc88a-bd3f-4218-b6a2-528a32fabfc9.png"
+      },
+      {
+        "name": "Men's Watches - Gold Rolex Watch",
+        "price": 8.29,
+        "url": "https://storage.googleapis.com/designify-images-tmp/196a18b0-13d4-4391-888e-363e9e6264d8.png"
+      },
+      {
+        "name": "Men's Watches - Black Rolex Watch",
+        "price": 6.99,
+        "url": "https://storage.googleapis.com/designify-images-tmp/b930ca87-fe17-4c12-bf44-b5483db1d2af.png"
+      }
+    ]
+  },
+  {
+    "name":"jewelries",
+    "address":"8777 windward pkwy.",
+    "delivery_charge": 6,
+    "image":"https://cdn-icons-png.flaticon.com/512/2784/2784613.png",
+    "menus": [
+      {
+        "name": "Lavish Pearl Gold Plated Wedding Jewellery Kundan Choker Necklace Set for Women",
+        "price": 4.00,
+        "url": "https://storage.googleapis.com/designify-images-tmp/f568d0ee-a939-477e-b2ef-4f5bb9b08371.png"
+      },
+      {
+        "name": "Sukkhi Trendy Kundan Gold Plated Wedding Jewellery Pearl Choker Necklace Set",
+        "price": 3.25,
+        "url": "https://storage.googleapis.com/designify-images-tmp/638f84f5-dd29-4f9a-875b-922b6adb6fea.png"
+      },
+      {
+        "name": "Pearl Choker Necklace Set",
+        "price": 5.49,
+        "url": "https://storage.googleapis.com/designify-images-tmp/bcac326f-103f-41e5-8546-05e3a303540a.png"
+      },
+      {
+        "name": "Anika's Creation Exclusive Pearl Chokar Jewellery Set for Women",
+        "price": 3.99,
+        "url": "https://storage.googleapis.com/designify-images-tmp/bf9793af-b06d-49a7-b2b4-6704b485343d.png"
+      },
+      {
+        "name": "Clear Diamante Bib Bold Statement Costume Necklace",
+        "price": 8.09,
+        "url": "https://storage.googleapis.com/designify-images-tmp/ea8299c4-6a58-4977-9cb6-2393f8bdc591.png"
+      },
+      {
+        "name": "Shuxin Wedding Jewellery Set for Women, Necklace Dangle Earrings Bracelet Set",
+        "price": 6.49,
+        "url": "https://storage.googleapis.com/designify-images-tmp/9250193f-c57a-4af8-abb8-43559cba0438.png"
+      }
+    ]
+  }
+]

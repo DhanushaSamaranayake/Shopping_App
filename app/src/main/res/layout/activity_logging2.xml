@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Logging">
+
+    <View
+        android:id="@+id/topview"
+        android:layout_width="0dp"
+        android:layout_height="250dp"
+        android:background="@color/wave_color_blue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:background="@drawable/wave"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/topview" />
+
+    <EditText
+        android:id="@+id/emailadress"
+        android:layout_width="300dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="41dp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/email"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:fontFamily="@font/ubuntu"
+        android:hint="@string/enter_your_email"
+        android:inputType="textEmailAddress"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view2"
+        tools:ignore="MissingConstraints"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/lgpassword"
+        android:layout_width="300dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="41dp"
+        android:background="@drawable/custom_input"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="41dp"
+        android:drawableStart="@drawable/ic_baseline_lock_24"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:hint="@string/enter_your_password"
+        android:inputType="textPassword"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emailadress"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="129dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="132dp"
+        android:background="@drawable/log_btn"
+        android:fontFamily="@font/ubuntu"
+        android:text="@string/login"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lgpassword" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="152dp"
+        android:layout_height="134dp"
+        app:layout_constraintBottom_toBottomOf="@+id/topview"
+        app:layout_constraintEnd_toEndOf="@+id/topview"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/topview"
+        app:srcCompat="@drawable/propic"
+        android:contentDescription="TODO"
+        tools:ignore="ContentDescription,HardcodedText" />
+
+    <TextView
+        android:id="@+id/forgetpasswordtxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="136dp"
+        android:fontFamily="@font/ubuntu"
+        android:text="@string/forget_password"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loginBtn"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="94dp"
+        android:layout_marginTop="44dp"
+        android:text="@string/don_t_have_an_account"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider" />
+
+    <TextView
+        android:id="@+id/registertxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="85dp"
+        android:fontFamily="@font/ubuntu"
+        android:text="Register "
+        android:textColor="@color/wave_color_blue"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="409dp"
+        android:layout_height="2dp"
+        android:layout_marginTop="29dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/forgetpasswordtxt" />
+</androidx.constraintlayout.widget.ConstraintLayout>

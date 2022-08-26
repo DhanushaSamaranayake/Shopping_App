@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "278257365431",
+    "project_id": "newbagshop1",
+    "storage_bucket": "newbagshop1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:278257365431:android:fc908b95cd9c10603bb832",
+        "android_client_info": {
+          "package_name": "com.example.newbagshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "278257365431-mtso2vvumovmu3rec2btslui67n8kof1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0Siscgl5kvkgunT3D2I4ISHBNQR7myE8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "278257365431-mtso2vvumovmu3rec2btslui67n8kof1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

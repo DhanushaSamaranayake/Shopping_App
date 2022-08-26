@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PlaceYourOrder"
+    android:paddingBottom="10dp"
+    >
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView android:id="@+id/tvCustomerDetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_margin="10dp"
+            android:text="Customer Details"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvPickup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="5dp"
+            android:text="Pickup"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/switchDelivery"
+            app:layout_constraintTop_toBottomOf="@+id/tvCustomerDetails" />
+
+        <com.google.android.material.switchmaterial.SwitchMaterial
+            android:id="@+id/switchDelivery"
+            android:layout_width="50dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            style="@style/Widget.App.Switch"
+            app:useMaterialThemeColors="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvCustomerDetails" />
+
+        <TextView
+            android:id="@+id/tvDelivery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="4dp"
+            android:text="Delivery"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/switchDelivery"
+            app:layout_constraintTop_toBottomOf="@+id/tvCustomerDetails" />
+
+        <EditText
+            android:id="@+id/inputName"
+            android:layout_width="350dp"
+            android:layout_height="39dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/custom_input"
+            android:drawableStart="@drawable/ic_person"
+            android:drawablePadding="12dp"
+            android:fontFamily="@font/ubuntu"
+            android:hint="Enter your name"
+            android:paddingStart="12dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/switchDelivery" />
+
+        <EditText
+            android:id="@+id/inputAddress"
+            android:layout_width="350dp"
+            android:layout_height="39dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/custom_input"
+            android:drawableStart="@drawable/email"
+            android:drawablePadding="12dp"
+            android:fontFamily="@font/ubuntu"
+            android:hint="Enter your address"
+            android:paddingStart="12dp"
+            android:textStyle="bold"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/inputName" />
+
+        <EditText
+            android:id="@+id/inputCity"
+            android:layout_width="350dp"
+            android:layout_height="39dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/custom_input"
+            android:drawableStart="@drawable/ic_baseline_location_on_24"
+            android:drawablePadding="12dp"
+            android:fontFamily="@font/ubuntu"
+            android:hint="Enter your city"
+            android:paddingStart="12dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/inputAddress" />
+
+        <EditText
+            android:id="@+id/inputState"
+            android:layout_width="350dp"
+            android:layout_height="39dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/custom_input"
+            android:drawableStart="@drawable/ic_baseline_map_24"
+            android:drawablePadding="12dp"
+            android:fontFamily="@font/ubuntu"
+            android:hint="Enter your state"
+            android:paddingStart="12dp"
+            android:textStyle="bold"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/inputCity" />
+
+        <EditText
+            android:id="@+id/inputZip"
+            android:layout_width="350dp"
+            android:layout_height="39dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/custom_input"
+            android:drawableStart="@drawable/ic_baseline_airport_shuttle_24"
+            android:drawablePadding="12dp"
+            android:fontFamily="@font/ubuntu"
+            android:hint="Enter your zip code"
+            android:inputType="number"
+            android:maxLength="5"
+            android:paddingStart="12dp"
+            android:textStyle="bold"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/inputState" />
+
+        <TextView
+            android:id="@+id/tvTotalItems"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="80dp"
+            android:text="Total items in cart"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.515"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/inputZip" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/cartItemsRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:nestedScrollingEnabled="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvTotalItems" />
+
+        <TextView
+            android:id="@+id/tvSubtotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="76dp"
+            android:text="Sub total"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cartItemsRecyclerView" />
+
+        <TextView android:id="@+id/tvSubtotalAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cartItemsRecyclerView"
+            android:layout_margin="10dp"
+            android:text="$0.0"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <TextView android:id="@+id/tvDeliveryCharge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvSubtotal"
+            android:layout_margin="10dp"
+            android:text="@string/delivery_charge"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <TextView android:id="@+id/tvDeliveryChargeAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvSubtotal"
+            android:layout_margin="10dp"
+            android:text="$0.0"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <TextView android:id="@+id/tvTotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvDeliveryCharge"
+            android:layout_margin="10dp"
+            android:text="Total"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <TextView android:id="@+id/tvTotalAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvDeliveryCharge"
+            android:layout_margin="10dp"
+            android:text="$0.0"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <TextView android:id="@+id/buttonPlaceYourOrder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvTotal"
+            android:text="Place your order"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/button_bg"
+            />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
